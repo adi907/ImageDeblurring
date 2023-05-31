@@ -16,13 +16,15 @@
 # 2. Import Libraries
 
 Libraries Required :- 
-                      Numpy
-                      Pandas
-                      Matplotlib
-                      OpenCV
-                      tqdm
-                      TensorFlow
-                      Keras
+<p align ="center">
+                      Numpy<br>
+                      🐼Pandas<br>
+                      Matplotlib<br>
+                      OpenCV<br>
+                      tqdm<br>
+                      TensorFlow<br>
+                      Keras<br>
+  </p>
 
 # 3. Pre-process the images into a standard size and format
 
@@ -32,11 +34,11 @@ Standard size: (128,128,3)
 
 Split choosen: 80:20
 
-# 5. Define CNN architecture and network hyperparameters
+# 5. Define CNN architecture and network hyperparameters<br>
 
-Loss function -> Mean Squared Error
-Optimizer -> Adam
-Evaluation metric -> Accuracy
+Loss function -> Mean Squared Error<br>
+Optimizer -> Adam<br>
+Evaluation metric -> Accuracy<br>
 
 Also define the learning rate reducer to reduce the learning rate if there’s no improvement in the Accuracy
 
