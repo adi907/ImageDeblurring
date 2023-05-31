@@ -2,7 +2,7 @@
 
 ## Process
 
-1. Get Dataset: Imported from Kaggle
+# 1. Get Dataset: Imported from Kaggle
 
 ## Samples
 
@@ -13,7 +13,7 @@
 |![180 Sharp](/samples/180_HONOR-10_S.jpg)| ![180 Defocused](/samples/180_HONOR-10_F.jpg)| ![180 Motion](/samples/180_HONOR-10_M.jpg)|
 
 
-2. Import Libraries
+# 2. Import Libraries
 
 Libraries Required :- 
                       Numpy
@@ -24,15 +24,15 @@ Libraries Required :-
                       TensorFlow
                       Keras
 
-3. Pre-process the images into a standard size and format
+# 3. Pre-process the images into a standard size and format
 
 Standard size: (128,128,3)
 
-4. Split the train & test set
+# 4. Split the train & test set
 
 Split choosen: 80:20
 
-5. Define CNN architecture and network hyperparameters
+# 5. Define CNN architecture and network hyperparameters
 
 Loss function -> Mean Squared Error
 Optimizer -> Adam
@@ -40,7 +40,7 @@ Evaluation metric -> Accuracy
 
 Also define the learning rate reducer to reduce the learning rate if there’s no improvement in the Accuracy
 
-6. Build the Autoencoder Model via Encoder & Decoder Model
+# 6. Build the Autoencoder Model via Encoder & Decoder Model
 
 Encoder - Build a stack of Conv2D(64) - Conv2D(128) - Conv2D(256). The model is going to be having input shape (128, 128, 3) and kernel size equal to 3 and the Encoder will compress this shape to (16, 16, 256) and will further flatten this into a one dimensional array which will be the input for our Decoder.
 
@@ -48,11 +48,11 @@ Decooder - Manually convert the one dimensional array from the encoder model to 
 
 AUTOENCODER = Encoder + Decoder
 
-7. Train the Model
+# 7. Train the Model
 
 Accuracy - 68 %
 
-8. Analyze the results
+# 8. Analyze the results
 
 We cannot compare blurred and sharp images on the basis of PSNR or SSIM but sharp images can be used for visual comparison.
 
