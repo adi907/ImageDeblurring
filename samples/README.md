@@ -4,9 +4,9 @@
 
 |Sharp     | Defocused-blurred | Motion-blurred |
 |-----------|-------|-------|
-|![106 Sharp](../samples/106_NIKON-D3400-35MM_S.JPG)| ![106 Defocused](/106_NIKON-D3400-35MM_F.JPG)| ![106 Motion](/106_NIKON-D3400-35MM_M.JPG)|
-|![176 Sharp](samples/176_HONOR-7X_S.jpg)| ![176 Defocused](samples/176_HONOR-7X_F.jpg)| ![176 Motion](samples/176_HONOR-7X_M.jpg)|
-|![180 Sharp](samples/180_HONOR-10_S.jpg)| ![180 Defocused](samples/180_HONOR-10_F.jpg)| ![180 Motion](samples/180_HONOR-10_M.jpg)|
+|![106 Sharp](../samples/106_NIKON-D3400-35MM_S.JPG)| ![106 Defocused](../samples/106_NIKON-D3400-35MM_F.JPG)| ![106 Motion](../samples/106_NIKON-D3400-35MM_M.JPG)|
+|![176 Sharp](../samples/176_HONOR-7X_S.jpg)| ![176 Defocused](../samples/176_HONOR-7X_F.jpg)| ![176 Motion](../samples/176_HONOR-7X_M.jpg)|
+|![180 Sharp](../samples/180_HONOR-10_S.jpg)| ![180 Defocused](../samples/180_HONOR-10_F.jpg)| ![180 Motion](../samples/180_HONOR-10_M.jpg)|
 
 ## Description
 This dataset contains 1050 blurred and sharp images (350 triplets), each image triplet is a set of three photos of the same scene: sharp, defocused-blurred and motion-blurred images.
