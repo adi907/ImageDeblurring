@@ -16,7 +16,7 @@
 # 2. Import Libraries
 
 Libraries Required :- 
-<p align ="center">
+<p margin-left="30%">
                       Numpy<br>
                       🐼Pandas<br>
                       Matplotlib<br>
@@ -46,7 +46,7 @@ Also define the learning rate reducer to reduce the learning rate if there’s n
 
 Encoder - Build a stack of Conv2D(64) - Conv2D(128) - Conv2D(256). The model is going to be having input shape (128, 128, 3) and kernel size equal to 3 and the Encoder will compress this shape to (16, 16, 256) and will further flatten this into a one dimensional array which will be the input for our Decoder.
 
-Decooder - Manually convert the one dimensional array from the encoder model to the shape (16, 16, 256) and then send it to the decoder to decode it back to (128, 128, 3) shape. So the stack here will be Conv2DTranspose(256) - Conv2DTranspose(128) - Conv2DTranspose(64).
+Decoder - Manually convert the one dimensional array from the encoder model to the shape (16, 16, 256) and then send it to the decoder to decode it back to (128, 128, 3) shape. So the stack here will be Conv2DTranspose(256) - Conv2DTranspose(128) - Conv2DTranspose(64).
 
 AUTOENCODER = Encoder + Decoder
 
@@ -58,7 +58,7 @@ Accuracy - 68 %
 
 We cannot compare blurred and sharp images on the basis of PSNR or SSIM but sharp images can be used for visual comparison.
 
-Analyze:
+Analyze:<br><br>
 Loss vs Epoch<br>
 <img width="735" alt="result1" src="https://github.com/adi907/ImageDeblurring/assets/76524120/dcbf156f-77b5-44fc-b6ea-6200eff9620b">
 
