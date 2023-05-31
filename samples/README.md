@@ -1,4 +1,4 @@
-#Blur Dataset
+# Blur Dataset
 
 ## Samples
 
@@ -8,12 +8,12 @@
 |![176 Sharp](samples/176_HONOR-7X_S.jpg)| ![176 Defocused](samples/176_HONOR-7X_F.jpg)| ![176 Motion](samples/176_HONOR-7X_M.jpg)|
 |![180 Sharp](samples/180_HONOR-10_S.jpg)| ![180 Defocused](samples/180_HONOR-10_F.jpg)| ![180 Motion](samples/180_HONOR-10_M.jpg)|
 
-##Description
+## Description
 This dataset contains 1050 blurred and sharp images (350 triplets), each image triplet is a set of three photos of the same scene: sharp, defocused-blurred and motion-blurred images.
 
 The dataset was created to validate the blur detection algorithm. The dataset can also be used for testing image deblurring, hovewer, the triplets are not "pixel-to-pixel" images, so, one cannot compare blurred and sharp images on the basis of PSNR or SSIM but sharp images can be used for visual comparison.
 
-##Dataset structure
+## Dataset structure
 The dataset contains three folders: sharp, defocused-blurred and motion-blurred images.
 
 The filename structure is as follows: id_device_type.extension where
