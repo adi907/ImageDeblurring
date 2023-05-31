@@ -57,8 +57,8 @@ Accuracy - 68 %
 We cannot compare blurred and sharp images on the basis of PSNR or SSIM but sharp images can be used for visual comparison.
 
 Analyze:
-Loss vs Epoch
+Loss vs Epoch<br>
 <img width="735" alt="result1" src="https://github.com/adi907/ImageDeblurring/assets/76524120/dcbf156f-77b5-44fc-b6ea-6200eff9620b">
 
-Accuracy vs Epoch
+Accuracy vs Epoch<br>
 <img width="735" alt="result2" src="https://github.com/adi907/ImageDeblurring/assets/76524120/11e3f99f-5ee1-4027-a7c6-10f7fd59d487">
