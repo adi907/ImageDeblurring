@@ -8,10 +8,12 @@
 
 |Sharp     | Defocused-blurred | Motion-blurred |
 |-----------|-------|-------|
-|![106 Sharp](/106_NIKON-D3400-35MM_S.JPG)| ![106 Defocused](/samples/106_NIKON-D3400-35MM_F.JPG)| ![106 Motion](/samples/106_NIKON-D3400-35MM_M.JPG)|
-|![176 Sharp](/samples/176_HONOR-7X_S.jpg)| ![176 Defocused](/samples/176_HONOR-7X_F.jpg)| ![176 Motion](/samples/176_HONOR-7X_M.jpg)|
-|![180 Sharp](/samples/180_HONOR-10_S.jpg)| ![180 Defocused](/samples/180_HONOR-10_F.jpg)| ![180 Motion](/samples/180_HONOR-10_M.jpg)|
-
+|![106_NIKON-D3400-35MM_S](https://github.com/adi907/ImageDeblurring/assets/76524120/350a0cd1-f376-4675-828d-a5e83a96362f) | ![106_NIKON-D3400-35MM_F](https://github.com/adi907/ImageDeblurring/assets/76524120/b83a3694-4842-488b-8400-1d03f51e262d)| ![106_NIKON-D3400-35MM_M](https://github.com/adi907/ImageDeblurring/assets/76524120/27bd52e7-1180-445a-8a91-19f13d438431) |
+| ![176_HONOR-7X_S](https://github.com/adi907/ImageDeblurring/assets/76524120/d173a850-b04d-4435-ba71-ebc9356d22b6) | ![176_HONOR-7X_F](https://github.com/adi907/ImageDeblurring/assets/76524120/e9950b5d-38a4-44d2-a37e-5c1ae264e55a)
+| ![176_HONOR-7X_M](https://github.com/adi907/ImageDeblurring/assets/76524120/dc292e01-0a13-4b27-911c-2139e6b9511c)
+|![180_HONOR-10_S](https://github.com/adi907/ImageDeblurring/assets/76524120/6af73cfd-8b3b-41b3-9230-68452dbcb0b3) | 
+![180_HONOR-10_F](https://github.com/adi907/ImageDeblurring/assets/76524120/1649240d-abdf-4725-bf16-cf2c7b3f9be1) | 
+![180_HONOR-10_M](https://github.com/adi907/ImageDeblurring/assets/76524120/bb45f281-cc75-4cb6-bd81-4fea7f4a79f4) |
 
 # 2. Import Libraries
 
